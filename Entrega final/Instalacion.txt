@@ -1,0 +1,18 @@
+Para la instalación correcta de la base de datos de la empresa de viajes en cuestión, se debe ingresar a la carpeta "Scripts" del directorio y se debe ejecutar los archivos internos en el siguiente orden:
+
+0_Creacion_esquemas_tablas: Este archivo crea las tablas de la base de datos 
+1_Funciones: Este archivo crea las funciones de la aplicacion
+2_Triggers: Este archivo crea los triggers de la base de datos
+3_Vistas: Este archivo crea las vistas de los usuarios
+4_Procedimientos: Este archivo crea los procedimientos funcionales
+5_DCL: Este archivo crea los usuarios de la base de datos
+6_Insercion_datos: Este archivo ingresa los datos en las tablas de la aplicacion
+7_TCL: Este archivo realiza las transacciones de la base de datos
+8_Copias_de_seguridad_y_respaldo: Este archivo crea el backup de la estructura y los datos
+
+Opcional
+11_Funciones_prueba: Se prueban las salidas de las funciones
+22_Prueba_Triggers: Se prueban las salidas de los triggers
+33_Prueba_Vistas: Se prueban las vistas creadas
+44_Prueba_Procedimientos: Se prueban las salidas de los procedimientos
+66_Consulta_tablas: Se consultan las tablas con los datos ingresados
